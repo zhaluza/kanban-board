@@ -1,0 +1,11 @@
+@import '../../scss/colors';
+@import '../../scss/constants';
+
+.column {
+  text-align: center;
+  width: 15rem;
+  h2 {
+    background: $accent;
+    border-radius: $border-radius;
+  }
+}
