@@ -1,0 +1,21 @@
+@import './colors';
+@import './constants';
+
+button {
+  border: none;
+  box-shadow: $box-shadow;
+  background-color: $light;
+  border-radius: $border-radius;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0.5rem;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  &:hover {
+    background-color: $dark;
+    color: $light;
+  }
+  &:active {
+    transform: translateY(1px);
+  }
+}
